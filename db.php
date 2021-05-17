@@ -2,8 +2,8 @@
 
 try {
     $sDatabaseUserName = 'postgres';
-    $sDatabasePassword = 'DetteEr1Password';
-    $sDatabaseConnection = "pgsql:host=localhost dbname=db_exam user=postgres password=DetteEr1Password";
+    $sDatabasePassword = 'YOUR_PASSWORD';
+    $sDatabaseConnection = "pgsql:host=localhost dbname=YOUR_DB user=postgres password=YOUR_PASSWORD";
     $aDatabaseOptions = array(
         PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
